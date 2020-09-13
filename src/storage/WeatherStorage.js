@@ -42,7 +42,7 @@ export function isFresh() {
 }
 
 export function isDifferentUnits(units) {
-  return getLastUnits() != units;
+  return getLastUnits() !== units;
 }
 
 export function isDifferentLocation(location) {
