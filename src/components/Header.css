@@ -1,0 +1,22 @@
+.header {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #145374;
+}
+
+.header__layout {
+  color: #ccc;
+  display: flex;
+}
+
+.header__location {
+  font-weight: 600;
+  cursor: text;
+}
+
+.header__layout span {
+  font-size: 24px;
+  margin: 0 10px;
+}

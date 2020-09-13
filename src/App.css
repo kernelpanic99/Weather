@@ -1,0 +1,42 @@
+body {
+  background-color: #f6f5f5;
+  color: #333;
+}
+
+main {
+  font-size: 18px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.widget-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.weather-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.label {
+  display: block;
+  word-wrap: unset;
+  margin-right: 30px;
+}
+
+hr {
+  margin: 20px 0;
+  border: 1px solid #00334e;
+}
+
+.condition {
+  display: block;
+  margin: 10px 0;
+  width: 100%;
+  font-weight: 600;
+  text-align: center;
+}

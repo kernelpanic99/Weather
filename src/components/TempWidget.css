@@ -1,0 +1,19 @@
+.temp-widget {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #ee6f57;
+  border-radius: 5px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.temp-widget__feels-like {
+}
+
+.temp-widget__view {
+  margin: 0;
+  padding: 0;
+  font-size: 64px;
+  font-weight: 400;
+}

@@ -1,0 +1,29 @@
+.radio {
+  display: flex;
+  padding: 10px;
+}
+
+.radio__container {
+  display: block;
+  cursor: pointer;
+}
+
+.radio__container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.radio__button {
+  height: 30px;
+  font-size: 14px;
+  color: #eee;
+  background-color: #999;
+  padding: 5px;
+}
+
+.radio__container input:checked ~ .radio__button {
+  background-color: #ee6f57;
+}

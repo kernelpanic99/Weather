@@ -1,0 +1,64 @@
+.wind-widget__gauge {
+  width: 140px;
+  height: 140px;
+  position: relative;
+  margin: 10px;
+  border-radius: 50%;
+  background-color: #145374;
+}
+
+.wind-widget__label {
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  color: #ccc;
+}
+
+.nord {
+  top: 0;
+  left: 60px;
+}
+
+.east {
+  top: 60px;
+  left: 120px;
+  transform: rotate(90deg);
+}
+
+.south {
+  top: 60px;
+  transform: rotate(270deg);
+}
+
+.west {
+  top: 120px;
+  left: 60px;
+  transform: rotate(180deg);
+}
+
+.arrow {
+  display: inline-block;
+  top: 60px;
+  left: 70px;
+  position: relative;
+  transform-origin: bottom;
+  transition: transform 1s ease;
+}
+
+.arrow__top {
+  box-sizing: border-box;
+  position: absolute;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 55px solid #ee6f57;
+  top: -55px;
+  left: -5px;
+  width: 0;
+  height: 0;
+}
+
+.wind-widget__speed {
+  text-align: center;
+}
