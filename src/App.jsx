@@ -11,7 +11,9 @@ import WindWidget from "./components/WindWidget";
 export default function App() {
   const [weather, setWeather] = useState(null);
   const [units, setUnits] = useState("imperial");
-  const [city, setCity] = useState("Odessa");
+  const [city, setCity] = useState(
+    sessionStorage.getItem("CURRENT_CITY") || "Odessa"
+  );
 
   useEffect(() => {
     if (
@@ -24,6 +26,7 @@ export default function App() {
       fetchWeather(weatherAdapter, city, units).then((res) => {
         setWeather(res);
         storage.store(res);
+        sessionStorage.setItem("CURRENT_CITY", city);
       });
     }
   }, [city, units]);
