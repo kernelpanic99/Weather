@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c54e6c02b996009566e6f8bd938a54de",
+    "revision": "7860c3531e4ec40750773e909400d45f",
     "url": "/Weather/index.html"
   },
   {
-    "revision": "f888cdbc947d3b8a1f7c",
+    "revision": "4adb23cb16dc75b79119",
     "url": "/Weather/static/css/main.3d0add15.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Weather/static/js/2.e61122b1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f888cdbc947d3b8a1f7c",
-    "url": "/Weather/static/js/main.18109249.chunk.js"
+    "revision": "4adb23cb16dc75b79119",
+    "url": "/Weather/static/js/main.9236f258.chunk.js"
   },
   {
     "revision": "33b8acc232781a3d41c0",
